@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio 410 — High-End Retouching, New York</title>
+<meta name="description" content="Studio 410 is a New York retouching studio for advertising, OOH and brand imagery. Beauty, product, automotive and fashion post-production.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#work">Skip to work</a>
+
+<!-- ================= Left rail ================= -->
+<aside class="rail">
+  <div class="rail-top">
+    <a class="brand" href="index.html" aria-label="Studio 410 — home">
+      <img class="wordmark" src="images/logo.png" alt="Studio 410" width="2104" height="192">
+    </a>
+    <p class="tagline">Retouching &amp; post-production<br>for advertising imagery.</p>
+
+    <div class="meta">
+      <div class="line"><strong>Based in</strong> New York, NY</div>
+      <div class="line"><strong>Inquiries</strong> <a href="mailto:studio@studio410.com">studio@studio410.com</a></div>
+      <div class="line"><strong>Instagram</strong> <a href="https://www.instagram.com/studio410.ig/" target="_blank" rel="noopener noreferrer">@studio410.ig</a></div>
+    </div>
+  </div>
+
+  <nav class="rail-nav" aria-label="Primary navigation">
+    <a class="active" href="index.html#work"><span>01</span> Work</a>
+    <a href="services.html"><span>02</span> Services</a>
+    <a href="about.html"><span>03</span> About</a>
+  </nav>
+
+</aside>
+
+<!-- ================= Main ================= -->
+<main id="top">
+
+  <!-- Gallery -->
+  <section class="section" id="work">
+    <header class="section-head reveal">
+      <p class="index">01 — Selected work</p>
+    </header>
+
+    <div class="grid">
+      <figure class="tile" data-cap="Beauty · Campaign">
+        <img src="images/01.jpg" loading="lazy">  
+        <figcaption><span>Beauty</span><span>Campaign key art</span></figcaption>
+      </figure>
+      <figure class="tile" data-cap="Fragrance · Still life">
+        <img src="images/02.jpg" loading="lazy">
+        <figcaption><span>Fragrance</span><span>Product still life</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/03.jpg" loading="lazy">
+        <figcaption><span>Automotive</span><span>Studio composite</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/04.jpg" loading="lazy">
+        <figcaption><span>Fashion</span><span>Editorial</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/06.jpg" loading="lazy">
+        <figcaption><span>Skincare</span><span>Packaging</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/05.jpg" loading="lazy">
+        <figcaption><span>Horology</span><span>Macro cleanup</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/07.jpg" loading="lazy">
+        <figcaption><span>Beverage</span><span>Liquid build</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/08.jpg" loading="lazy">
+        <figcaption><span>Jewelry</span><span>Skin & metal</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous image">&#8249;</button>
+  <img id="lb-img" src="" alt="">
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next image">&#8250;</button>
+  <p class="lb-cap" id="lb-cap"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
